@@ -1,0 +1,26 @@
+# Bonsai Scripts for recording videos and batch quantification of trajectory and entry-exit timestamps
+
+#### Instructions for use ####
+
+## Video Acquisition ##
+1) Run 0_VideoAquisition.bonsai
+- Open Video Acquisition node
+- Set total duration of recording under "Due time"
+- Set folder, family and phase name in File Name node
+- Set animal names in Boxes node
+- Start bonsai script
+- Double-click Video node to view live recording
+- Double-click Draw Canvas to view timer
+
+## Batch quantification of trajectory and entry-exit ##
+1) Copy test phase videos into a temporary folder
+
+2) Run 1_SetROI.bonsai
+- Set Path (folder with videos) and Save Directory
+- Read and follow description in ProcessVideo node
+
+3) Run 2_ReadRoi.bonsai
+- Set Path (folder with videos) and Save Directory according to step 2)
+	* Note bowl and box locations are retrived from the Save Directory
+- Read and follow description in ProcessVideo node
+
