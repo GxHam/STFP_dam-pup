@@ -3,3 +3,4 @@ Official Repository for scripts used in dam-pup Social Transmission of Food Pref
 
 By Baby-LINC Lab, Victoria Leong, Nanyang Technological University
 https://blogs.ntu.edu.sg/baby-linc/
+In collaboration with GA Lab, George Augustine, Temasek Life Sciences Laboratory
